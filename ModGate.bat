@@ -79,6 +79,13 @@ xcopy /s /y "%~dp0\bin\Mods\*.pak" "%userprofile%\AppData\Local\Larian Studios\B
 copy "%~dp0\bin\LoadOrder\modsettings.lsx" "%userprofile%\AppData\Local\Larian Studios\Baldur's Gate 3\PlayerProfiles\Public"
 cls
 
+:: Clear 'Temp' Folder
+echo Cleaning up...
+del /s /q "%~dp0\bin\Temp\*"
+rmdir /s /q "%~dp0\bin\Temp"
+mkdir "%~dp0\bin\Temp"
+cls
+
 :: Launch Game
 :launch
 echo Launching game...
