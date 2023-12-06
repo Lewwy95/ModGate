@@ -111,13 +111,6 @@
               <attribute id="UUID" value="0de6485d-4130-4ad1-aecc-261aa8ef885f" type="FixedString" />
               <attribute id="Version64" value="36028797018963968" type="int64" />
             </node>
-            <node id="ModuleShortDesc">
-              <attribute id="Folder" value="BlackDye" type="LSString" />
-              <attribute id="MD5" value="" type="LSString" />
-              <attribute id="Name" value="Aether's Black Dye" type="LSString" />
-              <attribute id="UUID" value="53480625-d3e4-4cce-86c8-a8a793eb61d7" type="FixedString" />
-              <attribute id="Version64" value="36028805608898560" type="int64" />
-            </node>
           </children>
         </node>
       </children>
