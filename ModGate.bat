@@ -56,6 +56,11 @@ echo Extracting latest revision...
 powershell -c "Expand-Archive '%~dp0\bin\Temp\ModGate-main.zip' -Force '%~dp0\bin\Temp'"
 cls
 
+:: Clear Mods Folder
+echo Clearing mods folder...
+del /s /q "%~dp0\bin\Mods\*"
+cls
+
 :: Deploy Latest Revision
 echo Deploying latest revision...
 xcopy /s /y "%~dp0\bin\Temp\ModGate-main" "%~dp0"
